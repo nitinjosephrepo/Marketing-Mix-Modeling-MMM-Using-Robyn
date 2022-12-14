@@ -39,5 +39,29 @@ Our Marketing Variables are
  ![data](https://user-images.githubusercontent.com/80999165/207708600-0bd58e92-a670-4b39-a452-84798f1aea6d.jpg)
 
 
+### Quick Start 
 
+1. Downloading the latest R version
+It is necessary to have the R 4.0.0 version (or higher) installed in order to be able to run this code. Install R Studio from [here](https://posit.co/download/rstudio-desktop/)
+
+
+2. Installing the package
+
+To install or update Robyn to the latest stable version of the package, run:
+
+           install.packages("Robyn")
+           
+then install Reticulate Package
+
+           install.packages("reticulate")
+           library(reticulate)
+           
+Create a virtual environment and then install nevergrad library using pip 
+ 
+           virtualenv_create("r-reticulate")
+           py_install("nevergrad", pip = TRUE)
+           use_virtualenv("r-reticulate", required = TRUE)
+ Run 
+ 
+           robyn3.8.1_run.R
 
