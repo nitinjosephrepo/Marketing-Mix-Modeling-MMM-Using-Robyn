@@ -65,3 +65,15 @@ Create a virtual environment and then install nevergrad library using pip
  
            robyn3.8.1_run.R
 
+### Run the Model. 
+
+Robyn uses Evoluationary Algorithm to identify the best models, and thus requires a minimum of 5 trials with 2000 iterations each. 
+
+### Analyse and Interpret Robyn output 
+
+1. Selcting a Robyn generated MMM model is definitely data driven but also requires some intution and art which relies on business knowledge 
+
+
+
+
+
